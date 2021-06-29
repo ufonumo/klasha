@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2bffd329.chunk.css",
+    "main.js": "/static/js/main.41a474c8.chunk.js",
+    "main.js.map": "/static/js/main.41a474c8.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.30244c91.js",
+    "runtime-main.js.map": "/static/js/runtime-main.30244c91.js.map",
+    "static/js/2.542f460d.chunk.js": "/static/js/2.542f460d.chunk.js",
+    "static/js/2.542f460d.chunk.js.map": "/static/js/2.542f460d.chunk.js.map",
+    "static/js/3.bc4438ce.chunk.js": "/static/js/3.bc4438ce.chunk.js",
+    "static/js/3.bc4438ce.chunk.js.map": "/static/js/3.bc4438ce.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.2bffd329.chunk.css.map": "/static/css/main.2bffd329.chunk.css.map",
+    "static/js/2.542f460d.chunk.js.LICENSE.txt": "/static/js/2.542f460d.chunk.js.LICENSE.txt",
+    "static/media/Activity.259191d8.svg": "/static/media/Activity.259191d8.svg",
+    "static/media/Call.9b369446.svg": "/static/media/Call.9b369446.svg",
+    "static/media/Filter.9253379f.svg": "/static/media/Filter.9253379f.svg",
+    "static/media/Logout.054637b7.svg": "/static/media/Logout.054637b7.svg",
+    "static/media/Star.14d6e954.svg": "/static/media/Star.14d6e954.svg",
+    "static/media/Wallet.e54ca08b.svg": "/static/media/Wallet.e54ca08b.svg",
+    "static/media/customer.37e63a77.svg": "/static/media/customer.37e63a77.svg",
+    "static/media/dashboard.de19eafd.svg": "/static/media/dashboard.de19eafd.svg",
+    "static/media/logo.ce827177.svg": "/static/media/logo.ce827177.svg",
+    "static/media/user.04fdb508.svg": "/static/media/user.04fdb508.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.30244c91.js",
+    "static/js/2.542f460d.chunk.js",
+    "static/css/main.2bffd329.chunk.css",
+    "static/js/main.41a474c8.chunk.js"
+  ]
+}
