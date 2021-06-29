@@ -49,7 +49,6 @@ const PayoutTable = () => {
 
                 <div className="moe">
                     <Button id='search'> <input id='inputSearch' type="text" placeholder='Search something...' /><SearchIcon id='searchIcon'/></Button>
-                    {/* <label htmlFor="start">March 2021</label> */}
                     <input  type="date" id="start"  name="trip-start"
                     value="2018-07-22"
                     min="2018-01-01" max="2018-12-31"></input>

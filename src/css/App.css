@@ -131,6 +131,10 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
   border-bottom: 1px solid #EBEBEB;
 }
 
+.bal_container{
+  padding: 16px !important;
+}
+
 #tot_text{
   font-size: 14px;
   line-height: 17px;
@@ -199,12 +203,20 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
   background: #F5F5F5;
   border: 1px solid #EBEBEB;
   box-sizing: border-box;
+  padding: 16px;
 }
 
 .MuiAppBar-colorPrimary {
   color: #000 !important;
   background-color: #fff !important;
   box-shadow: none !important;
+}
+
+.jss15 {
+  display: flex;
+  padding: 0 !important;
+  overflow: auto;
+  flex-direction: column;
 }
 
 @media (max-width: 320px) {

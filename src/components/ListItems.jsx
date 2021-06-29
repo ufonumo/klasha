@@ -16,7 +16,7 @@ import call from '../assets/Call.svg';
 export const mainListItems = (
         <>
         <ListSubheader className="mainText" inset>Main pages</ListSubheader>
-        <ListItem button>
+        <ListItem button active>
             <ListItemIcon>
                 <img src={dashboard} alt="dashboard" />
             </ListItemIcon>
