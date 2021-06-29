@@ -125,6 +125,10 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
   flex-direction: column;
 }
 
+.jss17 {
+  padding: 0 !important;
+}
+
 .total_bal {
   display: flex;
   justify-content: space-between;
