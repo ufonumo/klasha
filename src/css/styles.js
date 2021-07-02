@@ -124,7 +124,7 @@ export default makeStyles((theme) => ({
         backgroundColor: '#F5F5F5'
       },
       balance_container:{
-        paddingBottom: "30px"
+        paddingBottom: "40px"
       },
       line:{
         position: 'relative',

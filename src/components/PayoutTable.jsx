@@ -5,9 +5,10 @@ import TableBody from '@material-ui/core/TableBody';
 import TableCell from '@material-ui/core/TableCell';
 import TableHead from '@material-ui/core/TableHead';
 import TableRow from '@material-ui/core/TableRow';
-import { Typography , TextField , Button } from '@material-ui/core';
+import { Typography  , Button } from '@material-ui/core';
 import SearchIcon from '@material-ui/icons/Search';
-import MonthYearPicker from 'react-month-year-picker';
+import DateRangeOutlinedIcon from '@material-ui/icons/DateRangeOutlined';
+
 
 function createData(id, PayoutID, Source, Date, amount) {
     return { id, PayoutID, Source, Date, amount };
@@ -36,7 +37,17 @@ const useStyles = makeStyles((theme) => ({
     textSize:{
         fontSize: '18px',
         fontWeight: 700,
-    }
+    },
+      date_icon :{
+        marginLeft: "1rem",
+        color: '#2C665D',
+      },
+      date_Button:{
+          border: "1px solid #ebebeb",
+          borderRadius: "4px",
+          marginRight: '1rem',
+          fontSize: "14px"
+      }
 
   }));
 
@@ -49,9 +60,10 @@ const PayoutTable = () => {
 
                 <div className="moe">
                     <Button id='search'> <input id='inputSearch' type="text" placeholder='Search something...' /><SearchIcon id='searchIcon'/></Button>
-                    <input  type="date" id="start"  name="trip-start"
+                    {/* <input  type="date" id="start"  name="trip-start"
                     value="2018-07-22"
-                    min="2018-01-01" max="2018-12-31"></input>
+                    min="2018-01-01" max="2018-12-31"></input> */}
+                    <Button className={classes.date_Button}>March 2021 <DateRangeOutlinedIcon className={classes.date_icon}/> </Button>
                     <Button className={classes.payoutbtn} variant="contained" >
                         Payout
                     </Button>
