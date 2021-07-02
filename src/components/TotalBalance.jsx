@@ -13,16 +13,15 @@ const TotalBalance = () => {
     const [age, setAge] = React.useState('');
 
     const handleChange = (event) => {
-      setAge(event.target.value);
+      setAge(event.target.value); 
     };
 
     return (
         <>
-            <Grid container spacing={3}>
+            <Grid container spacing={3} className={classes.balance_container}>
                     <Grid item xs={12} md={6} lg={4}>
                         <Paper className={fixedHeightPaper}>
                             <div className={classes.containerBal}>
-                                <div className="bal_container">
                                     <div className="total_bal">
                                         <Typography variant='body' id='tot_text'>Total account balance</Typography>
                                         <div class="dropdown">
@@ -36,22 +35,19 @@ const TotalBalance = () => {
                                     </div>
                                     <Typography variant='h2' className={classes.balnce}>$5,332.18</Typography>
                                     <small className={classes.small_bal}>1 USD = 381.97 NGN</small>
-                                </div>
                             </div>
                         </Paper>
                     </Grid>
-                    {/* Recent Deposits */}
+                    {/* funds on  hold */}
                     <Grid item xs={12} md={6} lg={4}>
-                        <Paper className={fixedHeightPaper}>
-                            <div id="fundcontain">
-                            <div className={classes.containerBal} >
-                                <Typography variant='body2' className={classes.fund}>Funds on hold</Typography>
-                                <div>
-                                    <Typography className={classes.fundValue} variant='h2'>$5,332.18</Typography>
-                                </div>
-                            </div>
-                            </div>
-                            
+                        <Paper className={fixedHeightPaper}  className={classes.funds_hold}>
+                                <div className={classes.containerBal} >
+                                    <Typography variant='body2' className={classes.fund}>Funds on hold</Typography>
+                                    <div className={classes.line}></div>
+                                    <div>
+                                        <Typography className={classes.fundValue} variant='h2'>$5,332.18</Typography>
+                                    </div>
+                                </div>                            
                             
                         </Paper>
                     </Grid>

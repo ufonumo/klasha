@@ -99,6 +99,7 @@ export default makeStyles((theme) => ({
           paddingTop: '20px',
           color: "#2A2A2A",
           fontWeight: 700,
+          fontSize: '36px'
       },
       small_bal:{
         fontSize: "16px",
@@ -107,15 +108,33 @@ export default makeStyles((theme) => ({
         color: "#A6ABB2",
       },
       fund:{
-          borderBottom: '1px solid #EBEBEB',
+          // borderBottom: '1px solid #EBEBEB',
           paddingBottom: '20px',
 
       },
       fundValue:{
-          paddingTop: '40px',
+          paddingTop: '30px',
+          paddingBottom: '10px',
           letterSpacing:" 0.1px",
           color: "#2A2A2A",
           fontWeight:700,
+          fontSize: '36px'
+      },
+      funds_hold:{
+        backgroundColor: '#F5F5F5'
+      },
+      balance_container:{
+        paddingBottom: "30px"
+      },
+      line:{
+        position: 'relative',
+        width: "350px",
+        top: ".1rem",
+        right:" 6rem",
+        background: "#EBEBEB",
+        height: "1px",
       }
+
+
 
 }))

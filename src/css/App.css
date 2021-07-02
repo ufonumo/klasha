@@ -64,6 +64,7 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
 
 #searchIcon{
   margin-left: 3rem;
+  color: #EBEBEB;
 }
 
 #search{
@@ -124,6 +125,8 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
   overflow: auto;
   flex-direction: column;
 }
+
+
 
 .jss17 {
   padding: 0 !important;
@@ -225,6 +228,17 @@ td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeSmall {
   padding: 0 !important;
   overflow: auto;
   flex-direction: column;
+}
+
+@media (max-width: 768px) {
+  .makeStyles-containerBal-17 .makeStyles-line-26 {
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    position: relative;
+    border-bottom: 2px solid #EBEBEB;
+  }
 }
 
 @media (max-width: 320px) {
